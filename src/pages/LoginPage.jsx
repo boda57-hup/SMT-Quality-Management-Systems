@@ -1,11 +1,11 @@
 import Inputs from '../components/Inputs';
 import iconLogin from '../assets/IconBackGroundLogin.png';
-import loginPagePg from '../assets/LoginPageBG3.png';
+import LoginPageBG3 from '../assets/LoginPageBG3.png';
 
 export default function LoginPage() {
   return (
     <div className='w-full h-screen  flex justify-center items-center'
-      style={{ backgroundImage: `url(${loginPagePg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{ backgroundImage: `url(${LoginPageBG3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className=" bg-mainSidebar max-w-100 w-full mx-auto  rounded-md shadow-[0_10px_25px_rgba(0,0,0,0.15)] flex flex-col ">
         <div className='w-full flex flex-col justify-center items-center pt-5 pb-5 border-b-3 border-amber-400'>

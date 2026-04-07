@@ -1,6 +1,6 @@
 import Inputs from '../components/Inputs';
 import IconeLogin from '../assets/IconeLogin.png';
-import LoginPageBG3 from '../assets/LoginPageBG3.png';
+import LoginPageBG3 from '../assets/LoginBg.png';
 
 export default function LoginPage() {
   return (

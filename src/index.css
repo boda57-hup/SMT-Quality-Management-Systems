@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Space Grotesk';
+}
+
+p{
+  font-family: 'Inter';
+}
+label{
+  font-family: 'Inter';
+}
+
+@theme {
+  --color-whitee: #FFFFFF;
+  --color-mainSidebar: #192028;
+  --color-mainSidebarHovor: #0C4A64;
+  --color-linksHovor: #ffffff10;
+  --color-mainBackGround: #f1f5f9;
+  --color-cardsBackground: #FFFFFF;
+  --color-borderSideBar: #1E40AF;
+  --color-Title: #A9C7E3;
+  --color-paragrafTitle: #C3C6D0;
+  --color-paragraphMain: #94A3B8;
+  --color-pass: #22C55E;
+  --color-warning: #F59E0B;
+  --color-Fail: #EF4444;
+  --color-Info: #3B82F6;
+  --color-warning: #FFDAD6;
+  --color-bordercolor: #FFB4AB;
+  --color-bordercolor2: #002D5B;
+
+}

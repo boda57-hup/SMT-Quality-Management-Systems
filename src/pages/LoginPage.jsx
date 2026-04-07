@@ -1,5 +1,5 @@
 import Inputs from '../components/Inputs';
-import IconBackGroundLogin from '../assets/IconBackgroundLogin.png';
+import IconeLogin from '../assets/IconeLogin.png';
 import LoginPageBG3 from '../assets/LoginPageBG3.png';
 
 export default function LoginPage() {
@@ -9,7 +9,7 @@ export default function LoginPage() {
     >
       <div className=" bg-mainSidebar max-w-100 w-full mx-auto  rounded-md shadow-[0_10px_25px_rgba(0,0,0,0.15)] flex flex-col ">
         <div className='w-full flex flex-col justify-center items-center pt-5 pb-5 border-b-3 border-amber-400'>
-          <img src={IconBackGroundLogin} className='w-20 pb-6' />
+          <img src={IconeLogin} className='w-20 pb-6' />
           <h1 className='uppercase text-cardsBackground  text-[24px] font-bold font-Space leading-8 tracking-[0.6px]'>SMT PRECISION</h1>
           <p className='uppercase text-paragrafTitle font-Inter text-[10px] leading-3.75 tracking-[2px]'>Quality Management System</p>
         </div>

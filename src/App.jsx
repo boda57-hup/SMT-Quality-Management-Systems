@@ -19,7 +19,7 @@ export default function App() {
       <Routes>
 
         {/* Layout */}
-        <Route path="/" element={<LoginPage />}>
+        <Route path="/" element={<MainLayout />}>
           <Route index  element={<Dashboard />} />
           <Route path="/inspection"  element={<Inspection />} />
           <Route path="/defect"  element={<Defect />} />

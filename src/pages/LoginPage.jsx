@@ -73,7 +73,7 @@ export default function LoginPage() {
             </div>
 
             <p className="text-[#43474F] text-sm font-mono">
-              V 1.0.1-LTS
+              V 1.0.0-LTS
             </p>
           </div>
 

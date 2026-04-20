@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Inputs from '../components/Inputs';
 import IconeLogin from '../assets/IconeLogin.png';
-import bg from '../assets/LoginBg.png';
+import bg from '../assets/LoginPageBG.png';
 import SmtLogin from '../assets/SmtLogin.jpg';   // ← الصورة الصناعية
 
 export default function LoginPage() {
@@ -17,7 +17,7 @@ export default function LoginPage() {
       }}
     >
       {/* Container الرئيسي - Split Design */}
-      <div className="w-full max-w-6xl mx-auto bg-mainSidebar rounded-2xl shadow-2xl overflow-hidden flex max-h-[94vh]">
+      <div className="w-full max-w-6xl mx-auto bg-mainSidebar rounded-2xl shadow-2xl overflow-hidden flex max-h-[97vh]">
 
         {/* الجانب الأيسر - الصورة (أوسع دلوقتي) */}
         <div className="hidden lg:block w-7/12 relative">   {/* غيرت من 5/12 إلى 7/12 */}
@@ -51,7 +51,7 @@ export default function LoginPage() {
           </div>
 
           {/* Form Area */}
-          <div className="flex-1 px-10 py-8 overflow-auto">
+          <div className="flex-1 px-5 py-0 overflow-auto">
             <Inputs />
           </div>
 

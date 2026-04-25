@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 /*---------------الايقونات العادية --------------*/
-import dashboardIcon from "../assets/dashboardIcon.png";
+import dashboard_Icon from "../assets/dashboard_Icon.png";
 import inspectionIcon from "../assets/inspectionIcon.png";
 import deffectIcon from "../assets/deffectIcon.png";
 import mountoringIcon from "../assets/mountoringIcon.png";
@@ -43,7 +43,7 @@ export default function SideBar() {
           {({ isActive }) => (
             <>
               <img
-                src={isActive ? dashIconYelow : dashboardIcon}
+                src={isActive ? dashIconYelow : dashboard_Icon}
                 alt=""
                 className="w-5 h-5 transition-colors "
               />

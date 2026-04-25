@@ -1,8 +1,15 @@
 import { Outlet } from "react-router-dom";
 import SideBar from "../components/SideBar";
 import Navbar from "../components/Navbar";
+import { useState } from "react";
 
 export default function MainLayout() {
+  const [navData, setNavData] = useState({
+    navLeft: null,
+    statusList: [],
+    actions: null,
+  });
+
   return (
     <div className="flex h-screen overflow-hidden">
 
@@ -13,11 +20,15 @@ export default function MainLayout() {
       <div className="flex flex-col flex-1 overflow-hidden">
 
         {/* Navbar */}
-        <Navbar />
+        <Navbar
+          navLeft={navData.navLeft}
+          statusList={navData.statusList}
+          actions={navData.actions}
+        />
 
-        {/* Page Content - هنا هتظهر Dashboard وكل الصفحات */}
-        <div className="flex-1 p-6 overflow-auto bg-mainBackGround">
-          <Outlet />
+        {/* Pages */}
+        <div className="flex-1 text-white overflow-hidden bg-mainBackGround">
+          <Outlet context={{ setNavData }} />
         </div>
 
       </div>

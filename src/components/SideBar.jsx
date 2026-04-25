@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 /*---------------الايقونات العادية --------------*/
-import dashboardIcon from "../assets/dashicon.png";
+import dashboardIcon from "../assets/dashboardIcon.png";
 import inspectionIcon from "../assets/inspectionIcon.png";
 import deffectIcon from "../assets/deffectIcon.png";
 import mountoringIcon from "../assets/mountoringIcon.png";
@@ -10,7 +10,7 @@ import userIcon from "../assets/userIcon.png";
 import auditIcon from "../assets/auditIcon.png";
 import iconTopSidebar from "../assets/SMTLogo.png";
 /*---------------الايقونات الصفراء --------------*/
-import dashIconYelow from "../assets/dashIconyelow.png";
+import dashIconYelow from "../assets/dashIconYelow.png";
 import inspectionIconYelow from "../assets/inspectionIconYelow.png";
 import defectIconYelow from "../assets/defectIconYelow.png";
 import productionIconYelow from "../assets/productionIconYelow.png";
